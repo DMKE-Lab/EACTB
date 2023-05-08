@@ -53,19 +53,28 @@ python weighted_concat.py -d demo_embd/pairwise_dump.json -g demo_embd/zh_en_gra
 
 Use the logic package to export BERT based embeddings. First, install the logic:
 
+```bash
 git submodule init
+
 git submodule update
+```
 
 In addition, due to the rapid development of logic, it is recommended to submit version d1b5046 instead:
 
+```bash
 cd relogic
+
 git checkout d1b5046
+```
 
 The parameter "- local_rank" in logic represents the ID of the GPU.
 Training BERT requires manual stopping of training
 
+```bash
 bash train_ bert.sh 0 zh_ en
+
 bash eval_ bert.sh 0 zh_ en
+```
 
 Run the following code on the pychar terminal for testing:
 
