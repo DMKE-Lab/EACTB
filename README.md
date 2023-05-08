@@ -1,4 +1,4 @@
-#EACTB
+##EACTB
 
 Paper: Joint Multi-Feature Information Entity Alignment for Cross-lingual Temporal Knowledge Graph with BERT
 
